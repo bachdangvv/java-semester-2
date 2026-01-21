@@ -19,7 +19,7 @@ public class Main {
 
         System.out.print("PS1 rút gọn: "); ps1.inPhanSo();
         System.out.print("\nPS2 rút gọn: "); ps2.inPhanSo();
-        System.out.println("\n---------------------");3
+        System.out.println("\n---------------------");
 
         PhanSo tong = ps1.add(ps2);
         System.out.print("Tổng: "); tong.inPhanSo();
@@ -36,3 +36,4 @@ public class Main {
         sc.close();
     }
 }
+
